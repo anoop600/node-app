@@ -21,11 +21,11 @@ app.get('/', function (req, res) {
 
 app.get('/apple/contacts', function (req, res) {
     res.sendFile(__dirname + '/public/index.htm');
-})
+});
 
 app.get('/apple/leads', function (req, res) {
     res.sendFile(__dirname + '/public/index1.htm');
-})
+});
 app.get('/apple/accounts', function (req, res) {
     res.sendFile(__dirname + '/public/index2.htm');
 });

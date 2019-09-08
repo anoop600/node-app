@@ -37,5 +37,5 @@ https.createServer({
   cert: fs.readFileSync('certs/primary.crt')
 }, app)
 .listen(3021, function () {
-  console.log('Example app listening on port 3015! Go to https://localhost:3022/')
+  console.log('Example app listening on port 3021! Go to https://localhost:3021/')
 })
